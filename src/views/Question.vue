@@ -1,6 +1,6 @@
 <template>
   <div class="question">
-    <Question v-for="question in questions"></Question>
+    <Question v-for="question in questions" :questions="question" v-bind:key="question"></Question>
   </div>
 </template>
 
@@ -15,6 +15,7 @@ export default {
     },
       data() {
         return {
+          questionIndex: 0,
           questions :[
             {
             id: "1",
@@ -36,17 +37,22 @@ export default {
           },
           {
             id: "3",
-            untitled: "Blablablabla",
+            untitled: "Choisissez votre langage préféré",
             response: [{
-              choix1: "lol",
-              choix2: "noob",
-              choix3: "why not",
+              choix1: "SQL",
+              choix2: "JAVA",
+              choix3: "PHP",
             }]
           }]
       }
     },
-      methods: {
-        
+        methods: {
+          next: function() {
+        this.questionIndex++;
+        },
+          prev: function() {
+        this.questionIndex--;
+        }
       },
       created() {
         

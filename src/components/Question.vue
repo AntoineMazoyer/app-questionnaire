@@ -1,10 +1,10 @@
 <template>
   <div class="Question">
     <div class="Questionnaire">
-        <div class="Header"><h1></h1></div>
+        <div class="Header"><h1>{{questions.id}} - {{questions.untitled}}</h1></div>
         <div class="backcolor">
-             <!-- v-model="checkedChoice" -->
-            
+            <!-- v-model="checkedChoice" -->
+              <p>{{questions.response}}</p>
             <!-- <div class="choicelist"><span>Choix coché(s): {{checkedChoice}}</span></div> -->
         </div>
     </div>
