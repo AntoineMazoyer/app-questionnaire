@@ -1,6 +1,6 @@
 <template>
   <div class="accueil">
-    <Accueil v-bind="content"></Accueil>
+    <Accueil v-bind="content"></Accueil> 
   </div>
 </template>
 
