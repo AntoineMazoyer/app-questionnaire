@@ -1,29 +1,24 @@
 <template>
-  <div class="accueil">
-    <Accueil v-bind="content"></Accueil> 
+  <div class="home">
+    <Home v-bind="content"></Home> 
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Accueil from '@/components/Home.vue'
+import Home from '@/components/Home.vue'
 
 export default {
-  name: 'accueil',
+  name: 'home',
   components: {
-    Accueil
+    Home
     },
       data() {
         return {
           content: {
             title: "Test de sécurité",
             welcome: "Bienvenue dans l'entreprise EEV SAS",
-            text : "Avant d'entrer au sein de l'entreprise, il vous est demandé de répondre à un certains nombres de questions.",
-            person: {
-              firstname: "",
-              lastname: "",
-              company: ""
-            }
+            text : "Avant d'intégrer notre entreprise, il vous est demandé de répondre à un certains nombre de questions et d'obtenir un certains nombre de bonnes réponses.",
           },
         }
       },

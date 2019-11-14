@@ -2,12 +2,13 @@
   <div class="Question">
     <div class="Questionnaire">
         <div class="Header"><h1>{{question.id}} - {{question.untitled}}</h1></div>
-        <div v-for="(test, index) in question.responses" :key="test">
+        <div v-for="(listResponses, index) in question.responses" :key="listResponses">
           <input type="checkbox" v-model="question.userAnswer[index]">
-          <label>{{test}}</label>
+          <label>{{listResponses}}</label>
           <br>
         </div>
-      <span>{{question.userAnswer}}</span>
+      <span>J'ai selectionné : {{question.userAnswer}}</span>
+      <span>Réponses : {{question.goodAnswer}}</span>
     </div>
   </div>
 </template>

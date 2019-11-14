@@ -9,14 +9,19 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/home',
+      path: '/',
       name: 'home',
       component: Home
     },
     {
-      path: '/question',
-      name: 'question',
-      component: () => import(/* webpackChunkName: "about" */ './views/Questionnaire.vue')
+      path: '/questionnaire',
+      name: 'questionnaire',
+      component: () => import('./views/Questionnaire.vue')
+    },
+    {
+      path: '/resultat',
+      name: 'resultat',
+      component: () => import('./views/Resultat.vue')
     }
   ]
 })
