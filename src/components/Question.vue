@@ -7,13 +7,14 @@
           <label>{{listResponses}}</label>
           <br>
         </div>
-      <span>J'ai selectionné : {{question.userAnswer}}</span>
-      <span>Réponses : {{question.goodAnswer}}</span>
+      <!-- <span>J'ai selectionné : {{question.userAnswer}}</span>
+      <span>Réponses : {{question.goodAnswer}}</span> -->
     </div>
   </div>
 </template>
 
 <script>
+// On récupère les propriétés de nos questions
 export default {
   name: 'Question',
   props: ['question'],

@@ -1,10 +1,10 @@
 [
     {
         "id": "1",
-        "untitled": "Je suis un plat qui ne se mange pas avec du pain",
-        "responses": ["Raclette", "Tartiflette", "Croque Monsieur"],
+        "untitled": "Quelle est la capitale de l'Italie",
+        "responses": ["Paris", "Madrid", "Rome"],
         "userAnswer": [false,false,false],
-        "goodAnswer": [false,true,false]
+        "goodAnswer": [false,false,true]
     },
     {
         "id": "2",
@@ -15,58 +15,58 @@
     },
     {
         "id": "3",
-        "untitled": "Quel langage est le plus utilisé ?",
-        "responses": ["SQL", "JAVA", "PHP"],
+        "untitled": "Quel langage de programmation est le plus utilisé dans le monde entier ?",
+        "responses": ["PYTHON", "JAVASCRIPT", "PHP"],
         "userAnswer": [false,false,false],
         "goodAnswer": [false,true,false]
     },
     {
         "id": "4",
-        "untitled": "Quel langage est le plus utilisé ?",
-        "responses": ["SQL", "JAVA", "PHP"],
+        "untitled": "Quelle commande doit-on utiliser pour construire notre projet VueJS et le mettre en prod ?",
+        "responses": ["npm run build", "npm run start", "npm run construct"],
         "userAnswer": [false,false,false],
-        "goodAnswer": [false,true,false]
+        "goodAnswer": [true,false,false]
     },
     {
         "id": "5",
-        "untitled": "Quel langage est le plus utilisé ?",
-        "responses": ["SQL", "JAVA", "PHP"],
+        "untitled": "Que peut-on utiliser pour améliorer le design notre site avec vue JS ?",
+        "responses": ["VueX", "Vuetify", "VueComponent"],
         "userAnswer": [false,false,false],
         "goodAnswer": [false,true,false]
     },
     {
         "id": "6",
-        "untitled": "Quel langage est le plus utilisé ?",
-        "responses": ["SQL", "JAVA", "PHP"],
+        "untitled": "A quoi sert npm run serve ?",
+        "responses": ["A quitter notre application", "A lancer notre application", "A déployer notre application"],
         "userAnswer": [false,false,false],
-        "goodAnswer": [false,true,false]
+        "goodAnswer": [false,true,true]
     },
     {
         "id": "7",
-        "untitled": "Quel langage est le plus utilisé ?",
-        "responses": ["SQL", "JAVA", "PHP"],
+        "untitled": "A quoi sert npm run serve ?",
+        "responses": ["A quitter notre application", "A lancer notre application", "A déployer notre application"],
         "userAnswer": [false,false,false],
-        "goodAnswer": [false,true,false]
+        "goodAnswer": [false,true,true]
     },
     {
         "id": "8",
-        "untitled": "Quel langage est le plus utilisé ?",
-        "responses": ["SQL", "JAVA", "PHP"],
+        "untitled": "Quel dossier doit-on copier pour mettre en production notre application sur le git ?",
+        "responses": ["dist", "src", "public"],
         "userAnswer": [false,false,false],
-        "goodAnswer": [false,true,false]
+        "goodAnswer": [true,false,false]
     },
     {
         "id": "9",
-        "untitled": "Quel langage est le plus utilisé ?",
-        "responses": ["SQL", "JAVA", "PHP"],
-        "userAnswer": [false,false,false],
-        "goodAnswer": [false,true,false]
+        "untitled": "Vue JS est-il open source ?",
+        "responses": ["Non", "Oui"],
+        "userAnswer": [false,false],
+        "goodAnswer": [false,true]
     },
     {
         "id": "10",
-        "untitled": "Quel langage est le plus utilisé ?",
-        "responses": ["SQL", "JAVA", "PHP"],
+        "untitled": "Pouvez-vous nous dire à quoi sert Babel",
+        "responses": ["A compiler du code JavaScript", "A ajouter des dépendances dans un projet", "Ça ne sert à rien"],
         "userAnswer": [false,false,false],
-        "goodAnswer": [false,true,false]
+        "goodAnswer": [true,false,false]
     }
 ]

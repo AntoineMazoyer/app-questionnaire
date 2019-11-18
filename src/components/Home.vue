@@ -100,8 +100,6 @@ export default {
             company: this.form.company
           }
         })
-    } else if(this.form.firstname == "" || this.form.lastname == "" || this.form.company == ""){
-        console.log("Champs non remplis donc pas accès au questionnaire")
     }
   }
 },
