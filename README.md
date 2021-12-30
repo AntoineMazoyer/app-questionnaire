@@ -19,4 +19,4 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-### Visualiser reame du dossier github.io pour voir amélioration à apporter
+### Visualiser readme du dossier github.io pour voir amélioration à apporter
